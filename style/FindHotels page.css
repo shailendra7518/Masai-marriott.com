@@ -490,3 +490,47 @@ select{
 text-decoration: underline;
 color: blueviolet;
 }
+
+
+
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1080px)  {
+    #main>div>div:nth-child(1){
+        /* border: 2px solid red; */
+         border-bottom: 1px solid black;
+        
+         display: grid;
+         grid-template-columns: 20% 60% 16%;
+         grid-column-gap: 2%;
+         height: 180px;
+         
+         padding-bottom: 3px;
+    }
+
+    #main>div>div:nth-child(1)>div:nth-child(2)>div{
+        display: none;
+        border: 0.3px solid rgb(122, 109, 109);
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    #main>div>div>div:nth-child(3){
+        display: none;
+    }
+    /* .flex{
+      display: none;
+    } */
+    #for_guest{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-device-width: 0px) and (max-device-width: 680px){
+    #for_filter{
+        display: none;
+    }
+    .cont2{
+        display: none;
+    }
+  }
