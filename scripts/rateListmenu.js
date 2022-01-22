@@ -82,7 +82,7 @@ select1.addEventListener("click",function(){
     let master_checkout={
         image_url:url,
         price:(ans-301),
-        room_name:"City View, Guest Room",
+        room_name:other[i],
            no_of_room:room,
            no_of_day:day,
            no_of_chaild:chaild,
@@ -123,7 +123,7 @@ let master_checkout={
       image_url:url,
       price:(ans),
        no_of_room:room,
-       room_name:"City View, Guest Room",
+       room_name:other[i],
        no_of_day:day,
        no_of_chaild:chaild,
        no_of_adult:adult,
