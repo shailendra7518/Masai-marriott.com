@@ -169,6 +169,8 @@ left: 11.4%;
     height: 50px; 
     border-radius: 5px;
     border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
 }
 
 .startdate{
@@ -177,12 +179,13 @@ left: 11.4%;
     border: none;
     border-right: 2px solid black;
     height: 94%;
-    width: 47%;
+    width: 7vw;
 }
 .enddate{
     border: none;
     height: 94%;
-    width: 47%;
+    width: 7vw;
+    
 }
 
 .startdate1{
@@ -197,6 +200,7 @@ left: 11.4%;
     border: none;
     height: 94%;
     width: 47%;
+    overflow: hidden;
 }
 
 #HotelsSubmit{
@@ -303,6 +307,7 @@ left: 11.4%;
     margin-top:45px;
 }
 
+
 .sigininner{
     display: flex;
     gap: 20px;
@@ -406,7 +411,9 @@ left: 11.4%;
     width: 100%;
     background-color: white;
 }
-
+#firstPoster h3{
+    font-size: 1.3vw;
+}
 .leftsidePoster{
     /* border:2px solid gold; */
     width: 95%;
@@ -469,6 +476,9 @@ left: 11.4%;
       height: 100%;
       background-color: white;
 }
+#secondPoster h3{
+    font-size: 1.3vw;
+}
 
 #offersbtu{
     background-color: transparent;
@@ -512,6 +522,7 @@ left: 11.4%;
    width: 9%;
    border: 1px solid black;
    font-weight: bolder;
+   font-size: .9vw;
 }
 
 .thirdPosterbtu:hover{
@@ -543,15 +554,17 @@ left: 11.4%;
  
  .fourthPosterbtu{
      background-color: transparent;
-     padding:10px 25px; 
+     padding:1% 1% ; 
      margin-left:28.5%;
      margin-top: 40px;
-     height:20px;
-      width: 9%;
+     height:1.8vw;
+      width: 16%;
      border: 1px solid white;
      color: white;
      font-weight: bolder;
-     font-size: 15px;
+     font-size: 1.1vw;
+     display: flex;
+     justify-content: center;
  }
  
  .fourthPosterbtu:hover{
