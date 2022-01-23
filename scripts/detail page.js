@@ -41,7 +41,7 @@ let {brand_name,filter_name,contact,hotel_name,hotele_address,main_image,place_n
     contact1.textContent=contact
     
     reiviws.textContent=` o o o o o`
-    hotel_detail.textContent=`View hotel detaile`
+    hotel_detail.textContent=`View hotel detail`
     hotele_address1.textContent=hotele_address
     category1.textContent="Category 4"
     rate.textContent="VIEW RATES"
